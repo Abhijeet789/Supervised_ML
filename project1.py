@@ -1,7 +1,11 @@
+#this is the program to implement the usage of for loop
+
+#importing the libraries
 import time as t
 import os
 import webbrowser 
 
+#to display the menu
 menu = '''
 	press 1 to see todays date and time
 	press 2 to create a file
@@ -12,9 +16,10 @@ menu = '''
 	press 7 to logout from user    '''
 print(menu)
 	
-
+#taking the input from user 
 choice = int(input( "Please Enter your choice from 1 to 7 "))
 
+#starting of if-else loop to match the users input with menu
 if choice == 1 :
 	print "You have choosen an option to see todays date and time "
 	print "showing todays date and time "
