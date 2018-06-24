@@ -1,4 +1,4 @@
-#this program is basewd on taking pictures by webcam using opencv
+#this program is based on taking pictures by webcam using opencv
 #importing the libraries
 import cv2
 import random
